@@ -1,14 +1,14 @@
 # ChatZone 💬
 
-![ChatZone Banner](https://via.placeholder.com/800x200?text=ChatZone)
+🌍 **Languages**: [English](#english) | [Bahasa Indonesia](#bahasa-indonesia)
 
-> A modern, feature-rich chat application built with Flutter that brings people together.
+---
 
-🌍 **Available Languages**: [English](#) | [Bahasa Indonesia](#)
+# English
 
 ## 🚀 Overview
 
-ChatZone is an intuitive and powerful chat application designed for seamless communication. Built with Flutter and integrated with our robust [ChatZone API](https://github.com/Resky89/ChatZone-api), it delivers a smooth and engaging user experience.
+ChatZone is a simple and user-friendly chat application that enables seamless communication. It offers various key features such as messaging, status updates, communities, and calls. This application is integrated with the API available in the repository [ChatZone API](https://github.com/Resky89/ChatZone-api).
 
 ## ✨ Key Features
 
@@ -103,22 +103,123 @@ We love contributions! Here's how you can help:
    ```
 5. Open a Pull Request
 
-## 📝 License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# Bahasa Indonesia
 
-## 📞 Contact & Support
+## 🚀 Ikhtisar
 
-- **Issues**: [GitHub Issues](https://github.com/Resky89/ChatZone/issues)
+ChatZone adalah aplikasi obrolan yang sederhana dan ramah pengguna yang memungkinkan komunikasi yang lancar. Aplikasi ini menawarkan berbagai fitur utama seperti perpesanan, pembaruan status, komunitas, dan panggilan. Aplikasi ini terintegrasi dengan API yang tersedia di repositori [ChatZone API](https://github.com/Resky89/ChatZone-api).
+
+## ✨ Fitur Utama
+
+### 💭 Perpesanan Real-Time
+- Pengiriman pesan instan
+- Tanda terima dibaca
+- Indikator mengetik
+- Kemampuan berbagi media
+
+### 📱 Pembaruan Status
+- Bagikan foto, video, dan pembaruan teks
+- Visibilitas 24 jam
+- Penghitung tampilan
+- Reaksi cepat
+
+### 👥 Komunitas
+- Buat dan bergabung dengan grup berbasis minat
+- Izin berbasis peran
+- Berbagi media grup
+- Alat perencanaan acara
+
+### 📞 Panggilan
+- Panggilan suara yang jernih
+- Panggilan video HD
+- Dukungan panggilan grup
+- Opsi perekaman panggilan
+
+## 🛠️ Instalasi
+
+### Prasyarat
+- Flutter SDK (Versi stabil terbaru)
+- Dart SDK
+- Android Studio / VS Code
+- Git
+
+### Langkah-langkah Pengaturan
+
+1. **Klon repositori**
+   ```bash
+   git clone https://github.com/Resky89/ChatZone.git
+   cd ChatZone
+   ```
+
+2. **Instal dependensi**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Konfigurasi lingkungan**
+   ```bash
+   cp .env.example .env
+   # Edit .env dengan konfigurasi Anda
+   ```
+
+## 🚦 Menjalankan Aplikasi
+
+1. **Mulai server pengembangan**
+   ```bash
+   flutter run
+   ```
+
+2. **Build untuk produksi**
+   ```bash
+   flutter build apk  # Untuk Android
+   flutter build ios  # Untuk iOS
+   ```
+
+## 🔌 Integrasi API
+
+ChatZone memerlukan API backend untuk berfungsi. Pastikan Anda telah:
+
+1. Menyiapkan [ChatZone API](https://github.com/Resky89/ChatZone-api)
+2. Memperbarui endpoint API di file `.env` Anda
+3. Mengonfigurasi semua kunci dan token API yang diperlukan
+
+## 🤝 Kontribusi
+
+Kami sangat menghargai kontribusi! Berikut cara Anda dapat membantu:
+
+1. Fork repositori
+2. Buat branch fitur Anda
+   ```bash
+   git checkout -b feature/FiturLuar-Biasa
+   ```
+3. Commit perubahan Anda
+   ```bash
+   git commit -m 'Menambahkan FiturLuar-Biasa'
+   ```
+4. Push ke branch
+   ```bash
+   git push origin feature/FiturLuar-Biasa
+   ```
+5. Buka Pull Request
+
+## 📝 Lisensi
+
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
+
+## 📞 Kontak & Dukungan
+
+- **Masalah**: [GitHub Issues](https://github.com/Resky89/ChatZone/issues)
 - **Email**: support@chatzone.com
-- **Discord**: [Join our community](#)
+- **Discord**: [Bergabung dengan komunitas kami](#)
 
-## 🙏 Acknowledgments
+## 🙏 Ucapan Terima Kasih
 
-- Thanks to all our contributors
-- Flutter team for the amazing framework
-- Our amazing community of users
+- Terima kasih kepada semua kontributor kami
+- Tim Flutter untuk framework yang luar biasa
+- Komunitas pengguna kami yang luar biasa
 
 ---
 
-<p align="center">Made with ❤️ by the ChatZone Team</p>
+<p align="center">Dibuat dengan ❤️ oleh Tim ChatZone</p>
