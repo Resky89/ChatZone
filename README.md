@@ -1,10 +1,12 @@
 # ChatZone 💬
 
-🌍 **Languages**: [English](#english) | [Bahasa Indonesia](#bahasa-indonesia)
+<div align="center">
+🌍 Select Language / Pilih Bahasa: 
+<a href="#" onclick="switchLanguage('en'); return false;">English</a> | 
+<a href="#" onclick="switchLanguage('id'); return false;">Bahasa Indonesia</a>
+</div>
 
----
-
-# English
+<div id="en-content">
 
 ## 🚀 Overview
 
@@ -24,17 +26,19 @@ ChatZone is a simple and user-friendly chat application that enables seamless co
 - View counter
 - Quick reactions
 
-### 👥 Communities
-- Create and join interest-based groups
-- Role-based permissions
-- Group media sharing
-- Event planning tools
+### 👥 Communities (Read-only)
+- View available interest-based groups
+- Browse group content
+- See group members
+- View upcoming events
+> Note: Currently, features like creating groups, posting, and event planning are under development
 
-### 📞 Calls
-- Crystal-clear voice calls
-- HD video calls
-- Group calling support
-- Call recording options
+### 📞 Calls (Read-only)
+- View call history
+- See missed calls
+- Check call duration
+- View participant lists
+> Note: Active calling features are coming soon
 
 ## 🛠️ Installation
 
@@ -103,9 +107,25 @@ We love contributions! Here's how you can help:
    ```
 5. Open a Pull Request
 
----
+## 📝 License
 
-# Bahasa Indonesia
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact & Support
+
+- **Issues**: [GitHub Issues](https://github.com/Resky89/ChatZone/issues)
+- **Email**: support@chatzone.com
+- **Discord**: [Join our community](#)
+
+## 🙏 Acknowledgments
+
+- Thanks to all our contributors
+- Flutter team for the amazing framework
+- Our amazing community of users
+
+</div>
+
+<div id="id-content" style="display: none;">
 
 ## 🚀 Ikhtisar
 
@@ -125,17 +145,19 @@ ChatZone adalah aplikasi obrolan yang sederhana dan ramah pengguna yang memungki
 - Penghitung tampilan
 - Reaksi cepat
 
-### 👥 Komunitas
-- Buat dan bergabung dengan grup berbasis minat
-- Izin berbasis peran
-- Berbagi media grup
-- Alat perencanaan acara
+### 👥 Komunitas (Hanya Lihat)
+- Lihat grup berbasis minat yang tersedia
+- Jelajahi konten grup
+- Lihat anggota grup
+- Lihat acara mendatang
+> Catatan: Saat ini, fitur seperti membuat grup, posting, dan perencanaan acara masih dalam pengembangan
 
-### 📞 Panggilan
-- Panggilan suara yang jernih
-- Panggilan video HD
-- Dukungan panggilan grup
-- Opsi perekaman panggilan
+### 📞 Panggilan (Hanya Lihat)
+- Lihat riwayat panggilan
+- Lihat panggilan tidak terjawab
+- Cek durasi panggilan
+- Lihat daftar peserta
+> Catatan: Fitur panggilan aktif akan segera hadir
 
 ## 🛠️ Instalasi
 
@@ -220,6 +242,23 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 - Tim Flutter untuk framework yang luar biasa
 - Komunitas pengguna kami yang luar biasa
 
----
+</div>
 
-<p align="center">Dibuat dengan ❤️ oleh Tim ChatZone</p>
+<script>
+function switchLanguage(lang) {
+    if (lang === 'en') {
+        document.getElementById('en-content').style.display = 'block';
+        document.getElementById('id-content').style.display = 'none';
+    } else {
+        document.getElementById('en-content').style.display = 'none';
+        document.getElementById('id-content').style.display = 'block';
+    }
+}
+
+// Set default language to English
+window.onload = function() {
+    switchLanguage('en');
+}
+</script>
+
+---
