@@ -9,19 +9,14 @@ ChatZone is a simple and user-friendly chat application that enables seamless co
 ### 💭 Real-Time Messaging
 - Instant message delivery
 - Read receipts
-- Typing indicators
-- Media sharing capabilities
 
 ### 📱 Status Updates
-- Share photos, videos, and text updates
+- Share photos and videos
 - 24-hour visibility
-- View counter
-- Quick reactions
 
 ### 👥 Communities (Read-only)
 - View available interest-based groups
-- Browse group content
-- See group members
+- SView participant
 - View upcoming events
 > Note: Currently, features like creating groups, posting, and event planning are under development
 
@@ -29,7 +24,6 @@ ChatZone is a simple and user-friendly chat application that enables seamless co
 - View call history
 - See missed calls
 - Check call duration
-- View participant lists
 > Note: Active calling features are coming soon
 
 ## 🛠️ Installation
