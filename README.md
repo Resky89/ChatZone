@@ -1,24 +1,25 @@
 # ChatZone
 
-ChatZone is a simple chat application that allows users to communicate easily. This application has several main features such as chat, status update, communities, and call. This application is also connected to the API located in the repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api).
+ChatZone is a simple and user-friendly chat application that enables seamless communication. It offers various key features such as messaging, status updates, communities, and calls. This application is integrated with the API available in the repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api).
 
 ## Features
 
-1. **Chat**: The main feature that allows users to send and receive messages in real-time.
-2. **Update Status**: Users can update their status to let their friends know what they are doing or thinking.
-3. **Communities**: This feature allows users to join communities with similar interests and interact with other community members.
-4. **Call**: The call feature allows users to make voice or video calls with their friends.
+- **Chat**: Exchange messages in real-time with ease.
+- **Status Updates**: Share thoughts or activities with friends through status updates.
+- **Communities**: Join and interact with groups that share similar interests.
+- **Calls**: Make voice and video calls to stay connected with friends.
+- **Translate**: [View in Bahasa Indonesia](#bahasa-indonesia)
 
 ## Installation
 
-1. Clone this repository to your local machine:
+Follow these steps to set up the application:
+
+1. Clone the repository:
     ```sh
     git clone https://github.com/Resky89/ChatZone.git
     cd ChatZone
     ```
-
-2. Make sure you have Flutter SDK installed on your system. If not, you can download it from [here](https://flutter.dev/get-started).
-
+2. Ensure that Flutter SDK is installed on your system. If not, download it from [here](https://flutter.dev/get-started).
 3. Install dependencies:
     ```sh
     flutter pub get
@@ -26,28 +27,30 @@ ChatZone is a simple chat application that allows users to communicate easily. T
 
 ## Running the Application
 
-To run the application, use the following command:
+To launch the application, run:
 ```sh
 flutter run
 ```
 
-## API
+## API Integration
 
-To run this application, you need the API located in the repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api). Make sure you have followed the installation instructions and running the API server before using this application.
+ChatZone requires an API to function. Make sure you have set up and started the API server from the repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api) before using the application.
 
 ## Contribution
 
-We welcome contributions from anyone. If you want to contribute, please fork this repository and create a pull request with your changes.
+We welcome contributions from developers. If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Submit a pull request with a detailed description of your modifications.
 
 ## License
 
-This application is licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.
+This application is licensed under the MIT License. Refer to the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
-If you have any questions or issues, please create an issue in this repository or contact us at [email@example.com](mailto:email@example.com).
-
-[Klik untuk membaca dalam Bahasa Indonesia](#bahasa-indonesia)
+For any inquiries or issues, please open an issue in this repository or reach out to us at [email@example.com](mailto:email@example.com).
 
 ---
 
@@ -55,26 +58,27 @@ If you have any questions or issues, please create an issue in this repository o
 
 # ChatZone
 
-ChatZone adalah aplikasi chat sederhana yang memungkinkan pengguna untuk berkomunikasi dengan mudah. Aplikasi ini memiliki beberapa fitur utama seperti chat, update status, komunitas, dan panggilan. Aplikasi ini juga terhubung dengan API yang berada di repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api).
+ChatZone adalah aplikasi chat yang sederhana dan ramah pengguna yang memungkinkan komunikasi tanpa hambatan. Aplikasi ini menawarkan berbagai fitur utama seperti perpesanan, pembaruan status, komunitas, dan panggilan. Aplikasi ini terintegrasi dengan API yang tersedia di repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api).
 
 ## Fitur
 
-1. **Chat**: Fitur utama yang memungkinkan pengguna untuk mengirim dan menerima pesan secara real-time.
-2. **Update Status**: Pengguna dapat memperbarui status mereka untuk memberi tahu teman-teman mereka apa yang sedang mereka lakukan atau pikirkan.
-3. **Communities**: Fitur ini memungkinkan pengguna untuk bergabung dengan komunitas yang memiliki minat yang sama dan berinteraksi dengan anggota komunitas lainnya.
-4. **Call**: Fitur panggilan memungkinkan pengguna untuk melakukan panggilan suara atau video dengan teman-teman mereka.
+- **Chat**: Bertukar pesan secara real-time dengan mudah.
+- **Pembaruan Status**: Bagikan pemikiran atau aktivitas dengan teman-teman melalui pembaruan status.
+- **Komunitas**: Bergabung dan berinteraksi dengan grup yang memiliki minat serupa.
+- **Panggilan**: Lakukan panggilan suara dan video untuk tetap terhubung dengan teman.
+- **Terjemahkan**: [Lihat dalam Bahasa Inggris](#chatzone)
 
 ## Instalasi
 
-1. Clone repository ini ke lokal Anda:
+Ikuti langkah-langkah berikut untuk mengatur aplikasi:
+
+1. Clone repository:
     ```sh
     git clone https://github.com/Resky89/ChatZone.git
     cd ChatZone
     ```
-
-2. Pastikan Anda memiliki Flutter SDK terinstall di sistem Anda. Jika belum, Anda bisa mengunduhnya dari [sini](https://flutter.dev/get-started).
-
-3. Install dependencies:
+2. Pastikan Flutter SDK telah terinstal di sistem Anda. Jika belum, unduh dari [sini](https://flutter.dev/get-started).
+3. Instal dependensi:
     ```sh
     flutter pub get
     ```
@@ -86,21 +90,23 @@ Untuk menjalankan aplikasi, gunakan perintah berikut:
 flutter run
 ```
 
-## API
+## Integrasi API
 
-Untuk menjalankan aplikasi ini, Anda memerlukan API yang berada di repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api). Pastikan Anda telah mengikuti petunjuk instalasi dan menjalankan server API sebelum menggunakan aplikasi ini.
+ChatZone memerlukan API untuk berfungsi. Pastikan Anda telah mengatur dan menjalankan server API dari repository [Resky89/ChatZone-api](https://github.com/Resky89/ChatZone-api) sebelum menggunakan aplikasi.
 
 ## Kontribusi
 
-Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repository ini dan buat pull request dengan perubahan Anda.
+Kami menyambut kontribusi dari para pengembang. Jika Anda ingin berkontribusi:
+
+1. Fork repository ini.
+2. Buat branch baru untuk perubahan Anda.
+3. Ajukan pull request dengan deskripsi rinci tentang modifikasi yang dilakukan.
 
 ## Lisensi
 
-Aplikasi ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+Aplikasi ini dilisensikan di bawah MIT License. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau masalah, silakan buat issue di repository ini atau hubungi kami di [email@example.com](mailto:email@example.com).
+Untuk pertanyaan atau masalah, silakan buka issue di repository ini atau hubungi kami di [email@example.com](mailto:email@example.com).
 
-[Kembali ke Bahasa Inggris](#chatzone)
-```
